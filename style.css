@@ -17,6 +17,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
+    margin-top: 50px;
 }
 
 #addBtn {
