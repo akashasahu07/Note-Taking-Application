@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right bottom, #b40eca, #ce7d0c);
+}
+
+#main {
+    min-height: 100vh;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+#addBtn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    color: azure;
+    background-color: #179712;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#addBtn:hover {
+    background-color: #06a086;
+}
+
+.note {
+    background-color: #393e46;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.note:hover {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.tool {
+    background-color: #222831;
+    color: white;
+    padding: 5px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tool i {
+    padding: 5px;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.tool i:hover {
+    color: #aca1a1;
+}
+
+.name {
+    font-family: "Gotu", serif;
+}
+
+.note textarea {
+    width: 300px;
+    border: none;
+    min-height: 220px;
+    resize: none;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: transparent;
+}
+
+.note textarea:focus {
+    outline: none;
+}
